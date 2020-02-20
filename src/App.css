@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: #433b4b;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Cards {
+  margin-bottom: 0.5rem;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.track-title {
+  font-size: 24px;
+}
+.text-muted {
+  font-size: medium;
+}
+.Feed-body {
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: green;
+}
+
+.row {
+  justify-content: center;
+}
+.play-btn{
+  margin-right: .5rem;
+  
+}
+.feednav-btns{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-left: 0px;
+}
+.Feed-home {
+  background-color: #433b4b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-home {
+  background-color: #433b4b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.login-title {
+  color: orange;
+  font-size: 80px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
